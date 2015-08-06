@@ -17,15 +17,15 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="12dp"
+            android:layout_height="6dp"
             android:text="@string/log"
             android:id="@+id/button"
-            android:layout_weight="0.19"
-            android:onClick="logTime" />
+            android:layout_weight="0.17" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="16dp"
+            android:layout_weight="0.11"
             android:id="@+id/editText" />
 
         <EditText
@@ -34,7 +34,7 @@
             android:inputType="textMultiLine"
             android:ems="10"
             android:id="@+id/editText2"
-            android:layout_weight="0.78"
+            android:layout_weight="0.72"
             android:focusable="false"
             android:enabled="true"
             android:editable="false" />
